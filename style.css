@@ -307,3 +307,30 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
+
+.social
+{
+  position: absolute;
+  padding-left: 200px;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 50px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
